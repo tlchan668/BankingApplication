@@ -6,7 +6,7 @@ using BankingLibrary;
 namespace BankingLibrary {
     public class Checking {
 
-        public InterestAccount iacct { get; private set; }//using composition don't inherit methods so create methods
+        public InterestAccount iacct { get; private set; }//using composition don't inherit methods so create property
 
         public int checkNbr { get; private set; }
 
